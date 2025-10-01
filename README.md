@@ -112,36 +112,6 @@ Run the system to start capturing and analyzing:
 python main.py
 
 
-Or, if your application entry point is different (e.g. app.py, server.py), use that.
-
-Then:
-
-Allow camera access / provide video input
-
-Choose an exercise
-
-Perform movements in frame — get feedback, real-time rep counts, and metrics
-
-After the session, view logs or analytics if enabled
-
-Optionally, add screenshots or GIFs here to show UI or example usage.
-
-📁 Project Structure
-BodySync-AI/
-├── model/                  # Pretrained model weights
-├── src/ or app/             # Main application source code
-│   ├── pose_module.py       # Code to detect human pose / landmarks
-│   ├── exercise_module.py   # Logic for counting, feedback
-│   ├── utils.py              # Helper functions
-│   └── main.py / app.py      # Entry point
-├── assets/                  # Images, configs, example videos
-├── requirements.txt
-├── .gitignore
-└── README.md
-
-
-Adjust according to your actual layout.
-
 🚀 Future Enhancements
 
 Add more exercises (e.g. yoga, pilates, stretches)
@@ -156,5 +126,4 @@ Lightweight model for edge / mobile deployment
 
 Real-time voice feedback / coaching
 
-## 🏗 Architecture
 
