@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Pose Detection App</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .home-section {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 24px;
+    padding: 60px 40px;
+    margin: 0 auto 30px;
+    max-width: 900px;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.feature-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.feature-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.feature-card h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.cta-buttons {
+    margin-top: 40px;
+}
+    </style>
+</head>
+<body>
+    <!-- Home Page Section -->
+<div id="homeSection" class="home-section">
+    <div class="hero-content">
+        <h2>Welcome to BodySync AI</h2>
+        <p class="hero-description">
+            Advanced AI-powered pose detection and movement tracking for yoga and fitness training.
+            Get real-time feedback on your form and track your progress.
+        </p>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🧘‍♀️</div>
+                <h3>Yoga Mode</h3>
+                <p>Real-time pose detection and classification for yoga practices</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🏋️‍♂️</div>
+                <h3>Gym Mode</h3>
+                <p>Exercise counting and form analysis for strength training</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3>Analytics</h3>
+                <p>Track your progress with detailed performance insights</p>
+            </div>
+        </div>
+        
+        <div class="cta-buttons">
+            <button class="btn" onclick="showLogin()">Get Started</button>
+            <button class="btn btn-secondary" onclick="showDemo()">View Demo</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
