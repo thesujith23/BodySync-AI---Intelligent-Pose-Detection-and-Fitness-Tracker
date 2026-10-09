@@ -30,10 +30,8 @@ An AI fitness assistant that uses pose estimation for real-time exercise trackin
 - Exercise repetition counter  
 - Feedback on form / posture (e.g. angles, deviations)  
 - Performance metrics dashboard  
-- Multi-exercise support (squats, push-ups, lunges, etc.)  
-- Optional: video recording or session playback  
+- Multi-exercise support (squats, push-ups, lunges, etc.)   
 
-*(Adjust this list to exactly match what your app supports.)*
 
 ---
 
